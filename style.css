@@ -1,0 +1,248 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body{
+    display: flex;
+    height: 100vh;
+    min-height: 1500px;
+    margin: 0;
+    flex-direction: column;
+    overflow: auto;
+    color: #f9faf8; 
+    font-family: 'Roboto';
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    flex: 1;
+    min-width: 100px;
+    min-height: 40px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: none;
+    font-weight: 600;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 200px;
+}
+
+.header{
+    display: flex;
+    flex:1;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.links{
+
+    display:flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: 320px;
+    font-size: 16px;
+    color: #e5e7eb;
+}
+.hero{
+    display: flex;
+    flex: auto;
+    background-color: #1f2937;
+    height: 350px;
+    flex-wrap: wrap;
+}
+
+.main-text{
+    display: flex;
+    font-weight: bolder;
+    font-size: 48px;
+    max-height: 50px;
+    align-items: center;
+}
+.sub-text{
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.placeholder{
+    display: flex;
+    background-color: grey;
+    height: 200px;
+    width: 450px;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 250px;
+    flex-shrink: 0;
+}
+
+.info{
+    display:flex;
+    flex: 2;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    margin-left: 150px;
+    margin-right: 40px;
+}
+
+.button-one{
+    margin-right: auto;
+}
+
+
+
+.randinf{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: baseline;
+    background-color: white;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.container-bottom{
+    min-height: 850px;
+}
+
+.brackets-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.item{
+    display:flex;
+    flex-direction: column;
+    max-width: 150px;
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bracket-one, .bracket-two, .bracket-three, .bracket-four{
+    border: 3px solid #3882f6;
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+}
+
+.testimonials{
+    
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    background-color: #E5E7EB;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.testimonial-txt{
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #425168;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.source{
+    display: flex;
+    color: black;
+    font-weight: 900;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+    margin-right: 450px;
+    font-size: 18px;
+
+}
+
+.end-container{
+    display: flex;
+    width: 800px;
+    height:130px;
+    border-radius: 8px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #3882f6;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 350px;
+    margin-bottom: 200px;
+}
+.box-final{
+    margin-left: 100px;
+}
+
+.action{
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.end-text{
+    font-weight: 100;
+    font-size: 13px;
+    color:lightgray;
+}
+
+.end-button{
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+    font-size: 14px;
+    max-width: 120px;
+    border-spacing: 0cm;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    line-height:0%;
+    margin-right: 120px;
+    height: fit-content;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.footer{
+    display:flex;
+    background-color: #1f2937;
+    flex: 1;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    flex-shrink: 0;
+    padding: 20px;
+
+}
